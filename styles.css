@@ -4,6 +4,7 @@
     width: 52vh;
     height: 52vh;
     flex: 0 0 52vh;
+    border: 2px solid grey;
 
 }
 
@@ -11,7 +12,6 @@
     width: 13vh;
     height: 13vh;
     border: 2px solid gray;
-    box-sizing: border-box;
     background-color: black;
     opacity: 0;
 }
@@ -23,4 +23,5 @@ body {
     flex-direction: column;
     gap: 25px;
     padding-top: 5vh;
+    box-sizing: border-box;
 }
