@@ -37,7 +37,7 @@ function squareOpacityChange() {
     squares = document.querySelectorAll(".square")
     squares.forEach((square) => {
     square.addEventListener("mouseenter", (e) => {
-        if (square.style.opacity < 1) {square.style.opacity -= '-0.1'}
+        if (square.style.opacity < 1) {square.style.opacity -= '-1'}
     })
 })
 }
